@@ -1,4 +1,3 @@
-cat << 'EOF' > .github/workflows/deploy.yml
 name: Deploy to Bluehost
 
 on:
@@ -24,4 +23,3 @@ jobs:
           exclude: |
             **/.git*
             **/.git*/**
-EOF
